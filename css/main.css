@@ -39,13 +39,28 @@ td {
 
 .jumbotron .container a:hover{
 	text-decoration: none;
-    color: #FF00FF;
+    color: #1975D1;
 
 }
 
 .jumbotron .container .big-flat-icons td{	
 	line-height: 1.8;
 }
+
+.jumbotron .container a:hover i:before {
+    text-decoration: none;
+    color: #1975D1;
+}
+
+hr {
+	border-color: #000000;
+	margin-bottom: 5px;
+}
+
+.memberships .member-icon{
+	height: 144px;
+}
+
 
 
 
