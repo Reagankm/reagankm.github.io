@@ -1,0 +1,49 @@
+.navbar .nav > li > a {
+  
+  color:#000000;
+  padding-left: 10px;
+  line-height: 45px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+}
+
+.jumbotron {
+	color: #c8c9cd;
+	text-align: center;
+	background-color: #000000;
+	padding-top: 55px;
+	padding-bottom: 10px;
+}
+
+.col-md-4 h2{
+	text-align: center;
+}
+
+table { 
+	margin: auto; 
+	padding: 0px;
+}
+
+td {
+
+	padding: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+} 
+
+.jumbotron .container .big-flat-icons a:hover{
+	text-decoration: none;
+	opacity: .65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
