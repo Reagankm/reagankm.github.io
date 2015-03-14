@@ -8,7 +8,7 @@
 }
 
 .jumbotron {
-	color: #c8c9cd;
+	color: #ffffff;
 	text-align: center;
 	background-color: #000000;
 	padding-top: 55px;
@@ -25,17 +25,30 @@ table {
 }
 
 td {
-
 	padding: 40px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 } 
 
-.jumbotron .container .big-flat-icons a:hover{
-	text-decoration: none;
-	opacity: .65;
+.family h2{
+	margin-top: 0px;
 }
 
+.jumbotron .container a{
+	color: white;
+}
+
+.jumbotron .container a:hover{
+	text-decoration: none;
+    color: #FF00FF;
+
+}
+
+.jumbotron .container .big-flat-icons td{
+	height: 100px;
+	color: white;
+	line-height: 1.8;
+}
 
 
 
