@@ -61,9 +61,44 @@ hr {
 	height: 144px;
 }
 
+.discounts h3{
+	margin-top: 20px;
+	color: rgb(25, 117, 209);
+	font-style: italic;
+}
 
+.discounts a:hover {
+	text-decoration: none;
+}
 
+.discounts .btn {
+	border: 2px solid;
+	background-color: #1975D1; 
+}
 
+.discounts .btn a {
+	color: white;
+}
+
+.description {
+	text-align: center;
+	margin-top: 20px;
+}
+
+body p{
+	font-size: 17px;
+}
+
+#emphasis{
+	font-size: 24px;
+	color: #E62E00;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#specialists{
+	background-color: #B4B5B8;
+	color: #4E474F;
+}
 
 
 
