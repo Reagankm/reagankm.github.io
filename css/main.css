@@ -1,5 +1,4 @@
 .navbar .nav > li > a {
-  
   color:#000000;
   padding-left: 10px;
   line-height: 45px;
@@ -44,12 +43,9 @@ td {
 
 }
 
-.jumbotron .container .big-flat-icons td{
-	height: 100px;
-	color: white;
+.jumbotron .container .big-flat-icons td{	
 	line-height: 1.8;
 }
-
 
 
 
