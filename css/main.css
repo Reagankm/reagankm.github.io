@@ -52,38 +52,50 @@ td {
     color: #1975D1;
 }
 
-hr {
+.memberships hr {
 	border-color: #000000;
 	margin-bottom: 5px;
+
 }
 
 .memberships .member-icon{
 	height: 144px;
 }
 
-.discounts h3{
-	margin-top: 20px;
+.discounts h3 {
 	color: rgb(25, 117, 209);
 	font-style: italic;
+	
 }
 
 .discounts a:hover {
 	text-decoration: none;
+	margin-bottom: 5px;
+	width: 100px;
 }
 
-.testing .btn {
-	border: 2px solid;
-	background-color: #1975D1; 
+.discounts hr {
+	border-color: #000000;
+	width: 50%;
+	margin: 0px;
 }
 
-.testing .btn a {
-	color: white;	
+
+
+.discounts .btn {
+	border-color: transparent;
 }
 
-.testing .btn a:hover {
-	background-color: #8CBAE8
-	color: #333333;
+.btn-hover {
+  font-weight: normal;
+  color: #333333;  
+  background-color: inherit;
+  border-color: transparent;
+  white-space: nowrap;
+  width: 137px;
 }
+
+
 
 .description {
 	text-align: center;
@@ -92,6 +104,12 @@ hr {
 
 body p{
 	font-size: 17px;
+	font-weight: 300;
+}
+
+#specialists{
+	background-color: #B4B5B8;
+	color: #4E474F;
 }
 
 #emphasis{
@@ -100,10 +118,12 @@ body p{
 	font-family: Impact, Charcoal, sans-serif;
 }
 
-#specialists{
-	background-color: #B4B5B8;
-	color: #4E474F;
+.highlight{
+	color: #E62E00;
 }
+
+
+
 
 
 
