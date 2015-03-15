@@ -71,13 +71,18 @@ hr {
 	text-decoration: none;
 }
 
-.discounts .btn {
+.testing .btn {
 	border: 2px solid;
 	background-color: #1975D1; 
 }
 
-.discounts .btn a {
-	color: white;
+.testing .btn a {
+	color: white;	
+}
+
+.testing .btn a:hover {
+	background-color: #8CBAE8
+	color: #333333;
 }
 
 .description {
