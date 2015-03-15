@@ -1,4 +1,131 @@
+/*
+Includes a Bootstrap 3.1 affix sidebar template
+from http://bootply.com
 
-.pickle {
-	margin-top: 50px;
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+body {
+ padding-top:50px;
 }
+
+#masthead { 
+ min-height:250px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+#rightCol {
+  padding: 0px 75px;
+}
+
+.divider {
+  text-align: center;
+  
+}
+
+.divider:before {
+  display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+
+.divider:after {
+  display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+
+.divider .iconBg {
+  z-index: -1;
+}
+
+.contentA {
+  background-color: white;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  color: #312C32;
+}
+
+.contentB {
+  background-color: #75ACE3;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  color: #312C32;
+}
+
+.contentC {
+  background-color: #A2B46D;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  color: #312C32;
+}
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+.anchor {
+  display: block;
+  height: 230px; /*same height as header*/
+  margin-top: -230px; /*same height as header*/
+  visibility: hidden;
+}
+
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+
