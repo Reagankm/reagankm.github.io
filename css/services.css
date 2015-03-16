@@ -100,9 +100,21 @@ body {
 
 .anchor {
   display: block;
-  height: 230px; /*same height as header*/
-  margin-top: -230px; /*same height as header*/
+  height: 230px;
+  margin-top: -230px;
   visibility: hidden;
+}
+
+.subanchor {
+  display: block;
+  height: 80px; 
+  margin-top: -80px; 
+  visibility: hidden;
+}
+
+.contentC a {
+  color: #E62E00;
+  font-weight: 800;
 }
 
 
