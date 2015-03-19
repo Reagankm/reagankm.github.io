@@ -1,3 +1,5 @@
+/* For reference, previous red was #E62E00 */
+
 .navbar .nav > li > a {
   color:#000000;
   padding-left: 10px;
@@ -117,22 +119,21 @@ body p{
 
 #emphasis{
 	font-size: 26px;
-	color: #E62E00;
+	color: #EB203C;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: 800;
+
 }
 
 .highlight{
-	color: #E62E00;
+	color: #EB203C;
 }
 
 .highlight a{
-	color: #E62E00;
+	color: #EB203C;
 }
 
-.footer {
-	margin-top: 10px;
-}
+
 
 
 

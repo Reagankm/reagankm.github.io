@@ -112,10 +112,19 @@ body {
   visibility: hidden;
 }
 
-.contentC a {
-  color: #E62E00;
+.contentA a {
+  color: #EB203C;
   font-weight: 800;
 }
+
+.container .basicpillsmenu .nav-pills > li > a {
+      background-color: rgb(25, 117, 209);
+      color: #ffffff;
+    }
+
+.container .basicpillsmenu .nav-pills > li > a:hover {
+      background-color: #E62E00;
+    }
 
 
 @media screen and (min-width: 768px) {
