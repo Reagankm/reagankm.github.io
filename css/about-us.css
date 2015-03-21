@@ -1,0 +1,159 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  /*background-color: rgb(25, 117, 209);*/
+  background-color: #000000;
+  margin-top: 60px;
+  color: rgb(25, 117, 209);
+  
+  
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+
+.navbar .nav > li > a {
+  color:#000000;
+  padding-left: 10px;
+  line-height: 45px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+}
+
+
+.jumbotron {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 0px;
+    background-image: url(../images/group-art.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.memberships hr {
+  border-color: #000000;
+  margin-bottom: 5px;
+
+}
+
+.memberships .member-icon{
+  height: 144px;
+}
+
+.memberships {
+  max-width: 970px;
+}
+
+.marketing {
+  text-align: center;
+  
+}
+
+.marketing p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.marketing h3 {
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.marketing h2 {
+  font-size: 40px;
+  color: #1975D1;
+}
+
+.marketing .crew {
+  border: 2px solid;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
