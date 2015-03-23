@@ -119,6 +119,7 @@ body {
 
 .container .basicpillsmenu .nav-pills > li > a {
       background-color: rgb(25, 117, 209);
+      /*background-color: black;*/
       color: #ffffff;
     }
 

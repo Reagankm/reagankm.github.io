@@ -140,9 +140,20 @@ body {
 }
 
 .marketing .crew {
-  border: 2px solid;
+  border: 2px solid #E62E00;
   border-radius: 25px;
   margin-bottom: 30px;
+}
+
+.portrait {
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+.name {
+  color: #E62E00;
+  margin-top: 10px;
 }
 
 /* centered columns styles */
