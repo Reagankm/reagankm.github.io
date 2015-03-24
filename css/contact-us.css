@@ -1,0 +1,127 @@
+
+body {
+	background-image: url(../images/1920s-water-main.gif);
+}
+
+.navbar .nav > li > a {
+  color:#000000;
+  padding-left: 10px;
+  line-height: 45px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+}
+
+.memberships hr {
+	border-color: #000000;
+	margin-bottom: 5px;
+
+}
+
+.memberships .member-icon{
+	height: 144px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+
+  border-bottom: 1px solid #e5e5e5;
+  border: 3px solid black;
+  border-radius: 25px;
+
+  background-color: #000000;
+  background: url(../images/1918-water-main-tiny.png);
+  background-position: 0% 25%;
+  background-size: 522px 400px;
+  background-repeat: no-repeat;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 400px;
+}
+
+.jumbotainer img {
+	border-bottom: 1px solid #e5e5e5;
+    border: 3px solid black;
+    border-radius: 25px;
+    
+
+}
+
+#wide {
+	z-index:100;
+    position:absolute;    
+    color:red;
+    font-size:38px;
+    font-weight:bold;
+    left:335px;
+    top:360px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#text {
+	z-index:100;
+    position:absolute;    
+    color:red;
+    font-size:38px;
+    font-weight:bold;
+    left:380px;
+    top:366px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#text2 {
+	z-index:100;
+    position:absolute;    
+    color:red;
+    font-size:38px;
+    font-weight:bold;
+    left:380px;
+    top:420px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.jumbotainer {
+    max-width: 554px;
+    background-color: #1975D1;
+  	border: 2px solid;
+  	border-radius: 25px;
+  	padding: 10px;
+  	color: #312C32;
+  	text-align: center;
+  	margin-top: 70px;
+
+  }
+
+  .jumbotainer a{
+  	color: #C8C9CD;
+  }
+
+  .jumbotainer a:hover{
+  	text-decoration: none;
+  }
+
+  #email:hover {
+  	text-decoration: underline;
+  }
+
+  .jumbotainer .heading {
+  	margin-top: 60px;
+  	color: black;
+  }
+
+  footer {
+  	color: black;
+  	font-weight: 800;
+  }
+
+  footer a{
+  	color: #E62E00;
+  	font-style: bold;
+
+  }
